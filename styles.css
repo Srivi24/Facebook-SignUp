@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.main-div {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    color: #0866ff;
+    padding: 20px 0;
+    font-size: 56px;
+}
+
+.signup-form {
+    background-color: #fff;
+    width: 430px;
+    /* border: 1px solid #dadcdf; */
+    border-radius: 8px;
+    margin-bottom: 70px;
+    box-shadow: 0 8px 10px 0 #d3d4d6;
+}
+
+.form-heading {
+    text-align: center;
+}
+
+.form-heading h2 {
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.form-heading p {
+    color: #606770;
+    font-size: 14px;
+    padding-top: 7px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #dadcdf;
+}
+
+.form-group {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+input, select {
+    padding: 8px;
+    border: 1px solid #dadcdf;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.half-div {
+    width: 48%;
+    display: flex;
+}
+
+label {
+    font-size: 13px;
+    padding-top: 15px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.quar-div {
+    width: 30%;
+}
+
+.dob-div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.gender-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quar-div {
+    width: 30%;
+    /* padding: 5px; */
+}
+
+.radio {
+    border: 1px solid #dadcdf;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.radio-label {
+    font-size: 13px;
+    width: 100%;
+    padding: 0;
+}
+
+.radio-input {
+    width: inherit;
+}
+
+.full-div {
+    display: flex;
+    width: 100%;
+}
+
+#full-width-input {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #551a8b;
+}
+
+#first-small {
+    color: #777777;
+    font-size: 11px;
+    padding-top: 25px;
+}
+
+#second-small {
+    color: #777777;
+    font-size: 11px;
+    padding-top: 12px;
+}
+
+.button {
+    margin: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 200px;
+    padding: 7px 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #00a400;
+    border: 1px solid #00a400;
+    border-radius: 5px;
+
+}
+
+#login-btn {
+    width: 100%;
+    text-align: center;
+    color: #1877f2;
+    font-size: 17.5px;
+    margin-bottom: 15px;
+}
+
